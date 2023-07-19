@@ -34,7 +34,7 @@ def lambda_handler(event, context):
         
         # connecting to s3 bucket
         s3 = boto3.client('s3')
-        bucket_name = 'p2bothistorydata'
+        bucket_name = os.environ['BUCKET_NAME']
         folder_name = f'{first_name}/'
 
         # checking if the chat history exists

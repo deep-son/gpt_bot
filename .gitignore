@@ -17,6 +17,5 @@ var/
 *.egg
 
 vendored
-
 # Serverless directories
 .serverless

@@ -17,5 +17,4 @@ var/
 *.egg
 
 vendored
-# Serverless directories
-.serverless
+lambda_*.zip
